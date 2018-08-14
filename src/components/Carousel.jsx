@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import LeftArrow from "../images/carousel/left_arrow.png";
 import RightArrow from "../images/carousel/right_arrow.png";
 import CatA from "../images/carousel/cat_a.jpg";
@@ -67,7 +67,7 @@ class Carousel extends Component {
         />
         <div
           className="carousel-inner"
-          style={{ width: this.state.carouselInnerWidth, left: this.state.leftOffset }}
+          style={{width: this.state.carouselInnerWidth, left: this.state.leftOffset}}
         >
           { this.state.carouselImages && this.state.carouselImages.map((elem, i) =>
               <div key={i} className="carousel-img-container">
