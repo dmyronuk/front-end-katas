@@ -11,6 +11,9 @@ const Landing = (props) => {
         <li>
           <Link to="/infinite-scroll">Infinite Scroll</Link>
         </li>
+        <li>
+          <Link to="/loading-animations">Loading Animations</Link>
+        </li>
       </ul>
     </div>
   )
