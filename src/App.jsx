@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from "react-router-dom";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
 import Carousel from "./components/Carousel";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Landing} />
             <Route exact path="/carousel" component={Carousel} />
+            <Route exact path="/infinite-scroll" component={InfiniteScroll} />
           </Switch>
         </div>
       </BrowserRouter>

@@ -8,6 +8,9 @@ const Landing = (props) => {
         <li>
           <Link to="/carousel">Carousel</Link>
         </li>
+        <li>
+          <Link to="/infinite-scroll">Infinite Scroll</Link>
+        </li>
       </ul>
     </div>
   )
